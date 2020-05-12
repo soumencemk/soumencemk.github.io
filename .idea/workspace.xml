@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13c3cae5-cdd8-4401-9226-44c904663580" name="Default Changelist" comment="">
+    <list default="true" id="37fdda99-e1be-40d7-b194-cc1e61274ed0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -13,10 +14,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1bUTkFV51V2Ayxs56ZWSsIFSvjg" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1bo9ZZGuFTSt4NpfPb731ANoqnJ" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="flattenPackages" value="true" />
@@ -27,12 +25,10 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
@@ -66,41 +62,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="13c3cae5-cdd8-4401-9226-44c904663580" name="Default Changelist" comment="" />
-      <created>1588685814035</created>
+      <changelist id="37fdda99-e1be-40d7-b194-cc1e61274ed0" name="Default Changelist" comment="" />
+      <created>1589287636274</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588685814035</updated>
-      <workItem from="1588685815626" duration="1613000" />
+      <updated>1589287636274</updated>
+      <workItem from="1589287639017" duration="1030000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial Commit">
-      <created>1588687359281</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1588687359282</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="205" y="0" key="CommitChangelistDialog2" timestamp="1588687449881">
-      <screen x="0" y="0" width="1280" height="687" />
-    </state>
-    <state x="205" y="0" key="CommitChangelistDialog2/0.0.1280.687@0.0.1280.687" timestamp="1588687449881" />
-    <state x="233" y="80" key="Vcs.Push.Dialog.v2" timestamp="1588687459883">
-      <screen x="0" y="0" width="1280" height="687" />
-    </state>
-    <state x="233" y="80" key="Vcs.Push.Dialog.v2/0.0.1280.687@0.0.1280.687" timestamp="1588687459883" />
   </component>
 </project>

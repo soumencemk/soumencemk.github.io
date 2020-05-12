@@ -4,7 +4,8 @@
     <title>Soumen Karmakar</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
@@ -78,7 +79,9 @@
                     <div class="col-md-12 heading-section ftco-animate">
                         <h1 class="big">About</h1>
                         <h2 class="mb-4">About Me</h2>
-                        <p>Experienced Java and micro-services Developer with a demonstrated history of working in the information technology and services industry. Skilled in Java, Hibernate, Spring Framework, JSF, Web Services, Python, NodeJS, Angular, React and Netflix APIs</p>
+                        <p>Experienced Java and micro-services Developer with a demonstrated history of working in the
+                            information technology and services industry. Skilled in Java, Hibernate, Spring Framework,
+                            JSF, Web Services, Python, NodeJS, Angular, React and Netflix APIs</p>
                         <ul class="about-info mt-4 px-md-0 px-2">
                             <li class="d-flex"><span>Name:</span> <span>Soumen Karmakar</span></li>
                             <li class="d-flex"><span>Address:</span> <span>Reading, Berkshire, UK</span></li>
@@ -89,8 +92,43 @@
                 </div>
                 <div class="counter-wrap ftco-animate d-flex mt-md-3">
                     <div class="text">
-                        <p><a href="#" class="btn btn-primary py-3 px-3">Download CV</a></p>
+                        <p><a href="#" class="btn btn-primary py-3 px-3" data-toggle="modal"
+                              data-target="#downloadCVModal">Download CV</a></p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="downloadCVModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Download CV</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="alert1" class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <strong>Invaid Key!</strong> Please try again...
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Enter the key received from Soumen"
+                           aria-label="Key" aria-describedby="basic-addon2" onclick="function hideAlert() {
+                    $('#alert1').hide();
+                    }
+                    hideAlert();">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" onclick="function alertShow() {
+                            $('#alert1').show();
+                    }
+                    alertShow();">Download
+                    </button>
                 </div>
             </div>
         </div>
@@ -179,10 +217,14 @@
                         information technology and services industry. Skilled in Java, Hibernate, Spring Framework, JSF,
                         Web Services, Python, NodeJS, Angular, React and Netflix APIs</p>
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                        <li class="ftco-animate"><a href="https://github.com/soumencemk"><span class="icon-github"></span></a></li>
-                        <li class="ftco-animate"><a href="https://twitter.com/itssoumen"><span class="icon-twitter"></span></a></li>
-                        <li class="ftco-animate"><a href="https://www.facebook.com/itssoumen"><span class="icon-facebook"></span></a></li>
-                        <li class="ftco-animate"><a href="https://www.linkedin.com/in/itssoumen/"><span class="icon-linkedin"></span></a></li>
+                        <li class="ftco-animate"><a href="https://github.com/soumencemk"><span
+                                class="icon-github"></span></a></li>
+                        <li class="ftco-animate"><a href="https://twitter.com/itssoumen"><span
+                                class="icon-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="https://www.facebook.com/itssoumen"><span
+                                class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="https://www.linkedin.com/in/itssoumen/"><span
+                                class="icon-linkedin"></span></a></li>
                     </ul>
                 </div>
             </div>
@@ -261,6 +303,12 @@
 <script src="js/scrollax.min.js"></script>
 
 <script src="js/main.js"></script>
+<script>
+    $(document).ready(function () {
+        console.log("ready!");
+        $('#alert1').hide();
+    });
+</script>
 
 </body>
 </html>
