@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Java versions and features</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="JBake">
+
+    <!-- Le styles -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/asciidoctor.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link href="../../css/prettify.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+    <link rel="shortcut icon" href="../../favicon.ico">
+  </head>
+  <body onload="prettyPrint()">
+    <div id="wrap">
+	
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../">Soumen Karmakar's Blog</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../about.html">About</a></li>
+                <li><a href="../../archive.html">Archive</a></li>
+                <li><a href="../../contact.html">Contact Me</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../../feed.xml">RSS</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+	<div class="page-header">
+		<h1>Java versions and features</h1>
+	</div>
+
+	<p><em>09 January 2021</em></p>
+
+	<p><h4>JDK 8 (LTS)</h4>
+<hr />
+<ul>
+<li>language-level support for lambda expressions and default methods (virtual extension methods) which allow the addition of methods to interfaces without breaking existing implementations.</li>
+<li>Project Nashorn, a JavaScript runtime which allows developers to embed JavaScript code within applications</li>
+<li>Annotation on Java types</li>
+<li>Unsigned integer arithmetic</li>
+<li>Repeating annotations</li>
+<li>Date and time API</li>
+<li>Statically-linked JNI libraries</li>
+<li>Launch JavaFX applications (direct launching of JavaFX application JARs)</li>
+<li>Remove the permanent generation</li>
+</ul>
+<h4>JDK 9</h4>
+<hr />
+<ul>
+<li>Modularization of the JDK under Project Jigsaw (Java Platform Module System)</li>
+<li>Ahead-of-time compilation</li>
+<li>Interface private methods</li>
+<li>Compact Strings Improvement</li>
+<li>JShell</li>
+<li>Stream of Dates</li>
+<li>Stream API Improvements
+<ul>
+<li>Limiting Stream with <code>takeWhile()</code> and <code>dropWhile()</code> methods</li>
+<li>Overloaded Stream iterate method</li>
+<li>New Stream <code>ofNullable()</code> method</li>
+</ul>
+</li>
+<li>Immutable Collections with Factory Methods</li>
+</ul>
+<h4>JDK 10</h4>
+<hr />
+<ul>
+<li>Local Variable Type Inference</li>
+<li>Time-Based Release Versioning</li>
+<li>Garbage-Collector Interface</li>
+<li>Parallel Full GC for G1</li>
+<li>Heap Allocation on Alternative Memory Devices</li>
+<li>Consolidate the JDK Forest into a Single Repository</li>
+<li>Application Class-Data Sharing</li>
+<li>Additional Unicode Language-Tag Extensions</li>
+<li>Root Certificates</li>
+<li>Experimental Java-Based JIT Compiler</li>
+<li>Thread-Local Handshakes</li>
+<li>Remove the Native-Header Generation Tool</li>
+</ul>
+<h4>JDK 11 (LTS)</h4>
+<hr />
+<ul>
+<li>HTTP Client API</li>
+<li>Launch Single-File Programs Without Compilation</li>
+<li>String API Changes
+<ul>
+<li><code>String.repeat(Integer)</code></li>
+<li><code>String.isBlank()</code></li>
+<li><code>String.strip()</code></li>
+<li><code>String.lines()</code></li>
+</ul>
+</li>
+<li><code>Collection.toArray(IntFunction)</code></li>
+<li><code>Files.readString()</code> and <code>Files.writeString()</code></li>
+<li><code>Optional.isEmpty()</code></li>
+</ul>
+<h4>JDK 12</h4>
+<hr />
+<ul>
+<li>Collectors.teeing() in Stream API</li>
+<li>String API Changes
+<ul>
+<li><code>String.indent()</code></li>
+<li><code>String.transform()</code></li>
+<li><code>String constants</code></li>
+</ul>
+</li>
+<li><code>Files.mismatch(Path, Path)</code></li>
+<li>Compact Number Formatting</li>
+<li>Support for Unicode 11</li>
+<li>Switch Expressions (Preview)</li>
+</ul>
+<h4>JDK 13</h4>
+<hr />
+<ul>
+<li>Enhancements for Switch Expressions</li>
+<li>Text Blocks instead of Raw String Literals</li>
+<li>Under the hood :
+<ul>
+<li>Dynamic CDS Archives</li>
+<li>ZGC returns unused storage</li>
+<li>Renewed Socket APIs</li>
+</ul>
+</li>
+</ul>
+<h4>JDK 14</h4>
+<hr />
+<ul>
+<li>Pattern Matching for instanceof</li>
+<li>Non-Volatile Mapped Byte Buffers</li>
+<li>Helpful NullPointerExceptions</li>
+<li>Packaging Tool - jpackage</li>
+<li>NUMA-Aware Memory Allocation for G1</li>
+<li>JFR Event Streaming</li>
+<li>Records (Preview)</li>
+<li>Deprecate the Solaris and SPARC Ports</li>
+<li>Build-configuration changes</li>
+<li>Remove the Concurrent Mark Sweep (CMS) Garbage Collector</li>
+<li>JEP 368: Text Blocks (Second Preview)</li>
+<li>JEP 370: Foreign-Memory Access API (Incubator)</li>
+</ul>
+<h4>JDK 15</h4>
+<hr />
+<ul>
+<li><strong>JEP 339:</strong> Edwards-Curve Digital Signature Algorithm (EdDSA)</li>
+<li><strong>JEP 360:</strong> Sealed Classes (Preview)</li>
+<li><strong>JEP 371:</strong> Hidden Classes</li>
+<li><strong>JEP 372:</strong> Remove the Nashorn JavaScript Engine</li>
+<li><strong>JEP 374:</strong> Disable and Deprecate Biased Locking</li>
+<li><strong>JEP 375:</strong> Pattern Matching for instanceof (Second Preview)</li>
+<li><strong>JEP 377:</strong> ZGC: A Scalable Low-Latency Garbage Collector</li>
+<li><strong>JEP 378:</strong> Text Blocks</li>
+<li><strong>JEP 379:</strong> Shenandoah: A Low-Pause-Time Garbage Collector</li>
+<li><strong>JEP 381:</strong> Remove the Solaris and SPARC Ports</li>
+<li><strong>JEP 383:</strong> Foreign-Memory Access API (Second Incubator)</li>
+<li><strong>JEP 384:</strong> Records (Second Preview)</li>
+<li><strong>JEP 385:</strong> Deprecate RMI Activation for Removal</li>
+</ul>
+<h4>JDK 16</h4>
+<hr />
+<ul>
+<li><strong>JEP 338:</strong> Vector API (Incubator)
+<ul>
+<li><code>jdk.incubator.vector</code>, that provides vector computation (i.e. SIMD) supported by hardware instructions when available (e.g. SSE, AVX) and providing a “graceful degradation” to software implementation when SIMD hardware support is not available</li>
+</ul>
+</li>
+<li><strong>JEP 376:</strong> <em>ZGC</em>: Concurrent Thread-Stack Processing</li>
+<li><strong>JEP 380:</strong> Unix-Domain Socket Channels
+<ul>
+<li>UNIX-domain sockets (<em>AF_UNIX</em>) through <code>java.net.UnixDomainSocketAddress</code>.</li>
+</ul>
+</li>
+<li><strong>JEP 386:</strong> Alpine Linux Port</li>
+<li><strong>JEP 387:</strong> Elastic Metaspace</li>
+<li><strong>JEP 388:</strong> Windows/AArch64 Port</li>
+<li><strong>JEP 389:</strong> Foreign Linker API (Incubator)
+<ul>
+<li>This API will offer a pure-Java way to access native code, replacing JNI.</li>
+</ul>
+</li>
+<li><strong>JEP 390:</strong> Warnings for Value-Based Classes
+<ul>
+<li>Primitive wrapper classes, that are annotated as <code>@jdk.internal.ValueBased</code>, will have their constructors which are already marked as deprecated in Java 9, will produce removal warnings</li>
+</ul>
+</li>
+<li><strong>JEP 392:</strong> Packaging Tool
+<ul>
+<li>jpackage becomes a standard feature</li>
+</ul>
+</li>
+<li><strong>JEP 393:</strong> Foreign-Memory Access API (Third Incubator)</li>
+<li><strong>JEP 394:</strong> Pattern Matching for instanceof</li>
+<li><strong>JEP 395:</strong> Records</li>
+<li><strong>JEP 396:</strong> Strongly Encapsulate JDK Internals by Default</li>
+<li><strong>JEP 397:</strong> Sealed Classes (Second Preview)<br />
+<code>{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:false}</code></li>
+</ul>
+</p>
+
+	<hr />
+	
+		</div>
+		<div id="push"></div>
+    </div>
+    
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">&copy; 2021 Soumen Karmakar | Baked with <a href="http://jbake.org">JBake v2.6.5</a></p>
+      </div>
+    </div>
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../js/jquery-1.11.1.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/prettify.js"></script>
+    
+  </body>
+</html>

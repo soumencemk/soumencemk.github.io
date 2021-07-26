@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>http://jbake.org/contact.html</loc>
+        <lastmod>2021-07-26</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.org/about.html</loc>
+        <lastmod>2021-07-26</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.org/blog/2021/Java.html</loc>
+        <lastmod>2021-01-09</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.org/blog/2021/HelloWorld.html</loc>
+        <lastmod>2021-01-01</lastmod>
+    </url>
+</urlset>
